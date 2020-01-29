@@ -10,8 +10,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            VStack(alignment: .leading){
+                Spacer()
+            .navigationBarTitle("Hello", displayMode: .inline)
+                .navigationBarItems(
+                    leading: Image(systemName:"camera"),
+                    trailing: Image(systemName:"paperplane")
+            )
+                ZStack(alignment: .top){
+                    HStack{
+                        Image("Image01")
+                    }
+                HStack{
+                    Text("Profil")
+            .font(.largeTitle)
+            .fontWeight(.medium)
+            .foregroundColor(Color.pink)
+                }
+                    }.offset(y:-100)
+        HStack{
+            HStack{
+            Image(systemName:"heart")
+            Image(systemName:"message")
+            Image(systemName:"paperplane")
+            }
+            HStack{
+            Image(systemName:"bookmark")
+            }
+            }
+                
+        }
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

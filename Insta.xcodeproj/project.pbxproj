@@ -13,6 +13,8 @@
 		3524B88323E06A8900C3DFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3524B88223E06A8900C3DFE8 /* Assets.xcassets */; };
 		3524B88623E06A8900C3DFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3524B88523E06A8900C3DFE8 /* Preview Assets.xcassets */; };
 		3524B88923E06A8900C3DFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3524B88723E06A8900C3DFE8 /* LaunchScreen.storyboard */; };
+		3524B89123E06B7D00C3DFE8 /* NavTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B89023E06B7D00C3DFE8 /* NavTest.swift */; };
+		3524B89523E07B4300C3DFE8 /* ButtonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524B89423E07B4300C3DFE8 /* ButtonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3524B88523E06A8900C3DFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3524B88823E06A8900C3DFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3524B88A23E06A8900C3DFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3524B89023E06B7D00C3DFE8 /* NavTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTest.swift; sourceTree = "<group>"; };
+		3524B89423E07B4300C3DFE8 /* ButtonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		3524B87023E06A8900C3DFE8 = {
 			isa = PBXGroup;
 			children = (
+				3524B89023E06B7D00C3DFE8 /* NavTest.swift */,
 				3524B87B23E06A8900C3DFE8 /* Insta */,
 				3524B87A23E06A8900C3DFE8 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				3524B87C23E06A8900C3DFE8 /* AppDelegate.swift */,
 				3524B87E23E06A8900C3DFE8 /* SceneDelegate.swift */,
 				3524B88023E06A8900C3DFE8 /* ContentView.swift */,
+				3524B89423E07B4300C3DFE8 /* ButtonDetail.swift */,
 				3524B88223E06A8900C3DFE8 /* Assets.xcassets */,
 				3524B88723E06A8900C3DFE8 /* LaunchScreen.storyboard */,
 				3524B88A23E06A8900C3DFE8 /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				3524B87D23E06A8900C3DFE8 /* AppDelegate.swift in Sources */,
 				3524B87F23E06A8900C3DFE8 /* SceneDelegate.swift in Sources */,
+				3524B89123E06B7D00C3DFE8 /* NavTest.swift in Sources */,
+				3524B89523E07B4300C3DFE8 /* ButtonDetail.swift in Sources */,
 				3524B88123E06A8900C3DFE8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
